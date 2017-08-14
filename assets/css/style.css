@@ -1,0 +1,327 @@
+html, body {
+	height:100%;
+	margin:0;
+}
+
+body {
+	background-image: url("../images/waves.png");
+	padding: 0;
+	font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+	font-size: 18px;
+	color: #777777;	
+}
+
+a {
+	text-decoration: none;
+	color: #999999;
+}
+a:hover {
+	text-decoration: underline;
+	color: #3E0CE8;
+}
+
+p {
+	line-height: 190%;
+	padding-bottom: 20px;
+}
+
+img {
+	float: left;
+}
+
+input[type=text] {
+    width: 97%;
+    padding: 9px;
+    margin: 8px 0 18px 0;
+    display: inline-block;
+    border: 1px #dddddd solid;
+    font-size: 13px;
+}
+
+form {
+	margin-top: 28px;
+}
+
+textarea {
+	width: 98%;
+	max-width: 98%;
+	min-width: 98%;
+	height: 189px;
+	padding: 5px;
+	margin: 8px 0;
+	font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+	border: 1px #dddddd solid;
+}
+
+h1, h2, h3 {
+	font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 30px;
+	color: white;
+}
+
+h2 {
+	color: #4aaaa5;
+	font-size: 30px;
+}
+
+h3 {
+	color: #4aaaa5;
+	font-size: 22px;
+}
+
+hr {
+	border: 1.5px #DDDDDD solid;
+	margin-bottom: 20px;
+}
+
+header {
+	background-color: #ffffff;
+	border-bottom: 2px solid #cccccc;
+}
+
+footer {
+	border-top: 8px solid #4aaaa5;
+	clear: both;
+	text-align: center;
+	background-color: #666666;
+	font-size: 12px;
+	color: #C5CCB8;
+	padding: 36px;
+}
+
+.button {
+	background-color: #4aaaa5;
+	color: white;
+	cursor: pointer;
+	padding: 10px 30px;
+	margin: 8px 0 20px 0;
+	border: none;
+	font-size: 18px;
+}
+
+.container {
+	width: 960px;
+	margin: 38px auto;
+	clear: both;
+}
+
+.topbox {
+	width: 960px;
+	margin: auto;
+	overflow: hidden;
+}
+.name {
+	text-align: center;
+	background: #4aaaa5;
+	width: 250px;
+	height: 30px;
+	padding: 30px 0;
+	margin: 0;
+	float: left;
+	animation-name: change;
+    animation-duration: 4s;
+}
+
+.links {
+	display: flex;
+	justify-content: space-evenly;
+	width: 247px;
+	float: right;
+	padding: 33px 0 39px 0;
+}
+
+.pic1, .pic2, .pic3, .pic4, .pic5 {
+	width: 274px;
+	height: 205px;
+	display: block;
+	margin: 20px 0;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.pic1 {
+	background-image: url("../images/pic1.jpg");
+	float: left;
+}
+
+.pic2 {
+	background-image: url("../images/pic2.jpg");
+	float: right;
+}
+
+.pic3 {
+	background-image: url("../images/pic3.jpg");
+	float: left;
+	margin: 36px 0;
+}
+
+.pic4 {
+	background-image: url("../images/pic4.jpg");
+	float: right;
+	margin: 36px 0;
+}
+
+.pic5 {
+	background-image: url("../images/pic5.jpg");
+	float: left;
+}
+
+.portlink {
+	margin-top: 136px;
+	text-align: center;
+	width:100%;
+	background-color: #4aaaa5;
+	padding: 12px 0 18px 0;
+}
+
+.portlink a {
+	color:white;
+	font-weight: normal;
+	font-size: 22px;
+}
+
+.wrapper {
+	min-height: 100%;
+	margin-bottom: -40px;
+}
+
+.footer, .push {
+	height: 40px;
+}
+
+#main-info {
+	float: left;
+	width: 588px;
+	background: white;
+	border: 1px solid #dddddd;
+	padding: 10px 30px;
+	margin-bottom: 40px;
+}
+
+#social-links {
+	text-align: left;
+	float: right;
+	width: 208px;
+	background: white;
+	border: 1px solid #dddddd;
+	padding: 30px 30px;
+}
+
+#social-links img {
+	margin-top: 3px;
+	margin-bottom: 12px;
+}
+
+#img1, #img2 {
+	margin-right: 10px;
+}
+
+#img1, #img2, #img3 {
+	max-width: 62px;
+	max-height: 62px;
+}
+
+#me {
+	width: 200px;
+	height: 150px;
+	margin: 10px 25px 10px 0px;
+}
+
+#bodytitle {
+	padding: 30px 0 20px 0;
+}
+
+#secondbar {
+	border: 1px #dddddd solid;
+	margin: 20px 0;
+}
+
+@media screen and (max-width: 980px) {
+
+	.container, .topbox {
+		width: 77%;
+	}
+
+	.pic1, .pic2, .pic3, .pic4, .pic5 {
+		width: 100%;
+	}
+
+	#main-info {
+		width: 49.72%;
+	}
+
+	#social-links {
+		width: 28.89%;
+	}
+
+	#me {
+		width: 100%;
+		height: auto;
+	}
+
+	#img1, #img2 {
+		margin-right: 4.8%;
+	}	
+
+	#img1, #img2, #img3 {
+		width: 29.8%;
+		height: 29.8%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+
+	.container, .topbox {
+		width: 94.79%;
+	}
+
+	.pic1, .pic2, .pic3, .pic4, .pic5 {
+		width: 46.86%;
+	}
+
+	#main-info {
+		width: 91%;
+	}
+
+	#social-links {
+		width: 91%;
+		margin-bottom: 40px;
+	}
+
+	#me {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 640px) {
+
+	.name, .links, .topbox {
+		width: 100%;
+	}
+	 .container {
+		width: 94%;
+	}
+
+	.pic1, .pic2, .pic3, .pic4, .pic5 {
+		width: 100%;
+		height: auto;
+	}
+
+	.portlink {
+		margin-top: 46%;
+		margin-bottom: 4%;
+	}
+	
+	#main-info, #social-links {
+		width: 89.5%;
+	}
+}
+
+@keyframes change {
+    from {background-color: #005C85;}
+    to {background-color: #4aaaa5;}
+}
