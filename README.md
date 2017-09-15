@@ -1,1 +1,1 @@
-# Responsive-Portfolio
+Update from the basic portfolio. Uses media queries to make the web page responsive.
